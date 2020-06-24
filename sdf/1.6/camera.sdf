@@ -5,6 +5,10 @@
     <description>An optional name for the camera.</description>
   </attribute>
 
+  <attribute name="type" type="string" default="__default__" required="0">
+    <description>An optional type for the camera.</description>
+  </attribute>
+
   <element name="horizontal_fov" type="double" default="1.047" min="0.1" max="6.283186" required="1">
     <description>Horizontal field of view</description>
   </element> <!-- End Horizontal_FOV -->
